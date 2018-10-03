@@ -20,6 +20,8 @@ dependencies {
 }
 
 bintrayUpload {
+  user = 'bintray_user'
+  key = 'bintray_api_key'
   artifactId = "numeric-keyboard"
   repo = "android"
   groupId = "com.minyushov.android"
